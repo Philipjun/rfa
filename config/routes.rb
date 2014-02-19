@@ -2,6 +2,7 @@ Rainforest::Application.routes.draw do
   root "products#index"
 
   resources :products do
+    get 'search', on: :collection
     resources :reviews, except: :index
   end
 
