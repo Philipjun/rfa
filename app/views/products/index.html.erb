@@ -3,9 +3,6 @@
   <%= submit_tag "Search" %>
 <% end %>
 
-<!-- renders a helpful message with numbers of displayed vs. total entries -->
-<p id="products-count"><%= page_entries_info @products %></p>
-
 <div id="products">
   <%= render @products %>
 </div>
