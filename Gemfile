@@ -37,6 +37,9 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 
 gem 'faker'
 
+# For pagination
+gem 'kaminari'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
