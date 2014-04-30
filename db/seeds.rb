@@ -14,8 +14,7 @@ User.create!({
   name: "One",
   password: "1",
   password_confirmation: "1"
-  }
-  )
+})
 
 100.times do
   Product.create(
